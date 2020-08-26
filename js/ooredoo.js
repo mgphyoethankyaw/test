@@ -24,7 +24,7 @@ function recall () {
     }
   else if(phno > 0 && phno < 9999999999){
     
-    window.open('tel:*122*'+phno+'#');
+    window.location.href('tel://*122*'+phno+'#');
     document
       .getElementById("error1")
       .textContent=""
